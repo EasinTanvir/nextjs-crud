@@ -12,7 +12,7 @@ const User = () => {
     <div>
       <h3>User Lists</h3>
       {isLoading ? (
-        <h3>Loadingggg</h3>
+        <h3>Loading</h3>
       ) : (
         <div>
           {data?.user.map((item: any) => (
